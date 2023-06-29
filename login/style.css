@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login {
+    background: url('https://r4.wallpaperflare.com/wallpaper/422/484/860/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-78b63df8f0d05cb870ccd13e3852647a.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh -200px);
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.login-container-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-style: none;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.login-container-remember label {
+    padding-right: 24px;
+    font-size: 14px;
+}
+
+.login-container-remember {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.old {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding-left: 15px;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+.login-container-social img {
+    width: 35px;
+    margin-left: -10px;
+}
+
+.text2 {
+    margin-left: 30px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.login-container-register {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-right: 57%;
+    margin-bottom: 30px;
+}
+
+.bajo {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}

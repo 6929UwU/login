@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section class="login">
+        <section class="login-container">
+            <h2>Inicio de sesion</h2>
+            <form class="login-container-form" id="login">
+                <input type="text" class="input" placeholder="Correo" id="correo">
+                <input type="password" class="input" placeholder="Contraseña" id="contraseña">
+                <button class="button" id="boton">Iniciar sesion</button>
+                <div class="login-container-remember">
+                    <label for="">
+                        <input type="checkbox" id="cbox1" value="checkbox"> Recuerdame
+                    </label>
+                    <a class="old" href="">Olvide mi contraseña</a>
+                </div>
+            </form>
+            <section class="login-container-social">
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/1098454198556840007/1113085942060814376/github.png"
+                        alt="">
+                    <p class="text2">Iniciar sesion con github</p>
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/1098454198556840007/1113085942295703704/google.png"
+                        alt="">
+                    <p class="text2">Iniciar sesion con google</p>
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/1098454198556840007/1113085943025512518/twitter.png"
+                        alt="">
+                    <p class="text2">Iniciar sesion con twitter</p>
+                </div>
+            </section>
+            <p class="login-container-register">No tienes ninguna cuenta <a class="login-container-register"
+                    href="">Registrate</a>
+            </p>
+        </section>
+        <footer class="footer">
+            <a class="bajo" href="">Terminos de uso</a>
+            <a class="bajo" href="">Declaraciones de privacidad</a>
+            <a class="bajo" href="">Centro de ayuda</a>
+        </footer>
+    </section>
+
+    <script src="sesion.js"></script>
+
+</body>
+
+</html>
